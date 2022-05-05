@@ -24,7 +24,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  ────  *DyLux  ┃ ᴮᴼᵀ*  ────
+  ────  *ANDREA  ┃ ᴮᴼᵀ*  ────
 
 👋🏻 _Hola_ *%name*
 
@@ -32,10 +32,6 @@ const defaultMenu = {
 🧿 Nivel : *%level* 
 📊 Database: %rtotalreg de %totalreg
 ─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/F4lGWb1WXgM
-▢ Descarga *FGWhatsApp*
-• https://fg98.epizy.com
 ─────────────
 %readmore
 Ⓟ = Premium
@@ -148,10 +144,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
 const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     
-    conn.sendHydrated(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
-      ['ꨄ︎ Apoyar', '/donate'],
+    conn.sendHydrated(m.chat, text.trim(), '▢ ANDREA  ┃ ᴮᴼᵀ\n▢ ', ', null, null, [
+ 
       ['⏍ Info', '/botinfo'],
-      ['✆ Owner', '/owner']
+      ['✆ Owner', '/owner 573125484672']
     ], m)
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
