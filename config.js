@@ -31,7 +31,7 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.packname = 'ANDREA-bot'
 global.author = '@ANDREA'
-global.igfg = '\n▢ 
+global.igfg = '\dylux-fgn▢ 
 
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
