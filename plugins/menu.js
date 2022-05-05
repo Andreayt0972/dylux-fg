@@ -24,7 +24,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  ────  *ANDREA  ┃ ᴮᴼᵀ*  ────'♤*
+  ────  *ANDREA  ┃ ᴮᴼᵀ*  ────
 
 👋🏻 _Hola_ *%name*
 
@@ -144,10 +144,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
 const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     
-    conn.sendHydrated(m.chat, text.trim(), '▢ ANDREA  ┃ ᴮᴼᵀ\n▢ ', ', null, null, [
+    conn.sendHydrated(m.chat, text.trim(), '▢ ANDREA  ┃ ᴮᴼᵀ\n▢, pp, 'https://chat.whatsapp.com/IYl8F2b6XIh1YIZmO0w0va', 'Grupo', null, null, [
  
       ['⏍ Info', '/botinfo'],
-      ['✆ Owner', '/owner 573125484672']
+      ['✆ Owner', '/owner']
     ], m)
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
