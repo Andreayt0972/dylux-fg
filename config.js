@@ -29,9 +29,9 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'dylux-bot'
-global.author = '@fg98'
-global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n' 
+global.packname = 'ANDREA-bot'
+global.author = '@ANDREA'
+global.igfg = '\n▢ 
 
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
