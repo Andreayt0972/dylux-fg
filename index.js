@@ -16,12 +16,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('DyLux\nWhatsApp Bot', {
+say('ANDREA\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`'${name}' By @fg98._`, {
+say(`'${name}' By @andreayt._`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
